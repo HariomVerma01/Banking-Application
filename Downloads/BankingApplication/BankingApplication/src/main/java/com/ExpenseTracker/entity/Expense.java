@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.entity;
+package com.ExpenseTracker.entity;
 
 import java.sql.Date;
 import java.sql.Timestamp;

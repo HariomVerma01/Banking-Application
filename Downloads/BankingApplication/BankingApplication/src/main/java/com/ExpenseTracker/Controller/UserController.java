@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.Controller;
+package com.ExpenseTracker.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.SBI.ExpenseTracker.ExpenseService.UserService;
-import com.SBI.ExpenseTracker.entity.User;
-import com.SBI.ExpenseTracker.entity.UserModel;
+import com.ExpenseTracker.ExpenseService.UserService;
+import com.ExpenseTracker.entity.User;
+import com.ExpenseTracker.entity.UserModel;
 
 @RestController
 public class UserController {

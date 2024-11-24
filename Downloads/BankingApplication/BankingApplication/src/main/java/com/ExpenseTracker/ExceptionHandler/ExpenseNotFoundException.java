@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.ExceptionHandler;
+package com.ExpenseTracker.ExceptionHandler;
 
 public class ExpenseNotFoundException extends RuntimeException {
 

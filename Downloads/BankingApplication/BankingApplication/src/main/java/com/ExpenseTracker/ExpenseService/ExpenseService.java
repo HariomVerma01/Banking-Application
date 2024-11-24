@@ -1,11 +1,11 @@
-package com.SBI.ExpenseTracker.ExpenseService;
+package com.ExpenseTracker.ExpenseService;
 import java.sql.Date;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.SBI.ExpenseTracker.entity.Expense;
+import com.ExpenseTracker.entity.Expense;
 
 public interface ExpenseService {
 	

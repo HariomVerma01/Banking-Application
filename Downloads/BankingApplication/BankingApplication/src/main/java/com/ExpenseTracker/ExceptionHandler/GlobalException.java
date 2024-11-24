@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.ExceptionHandler;
+package com.ExpenseTracker.ExceptionHandler;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
-import com.SBI.ExpenseTracker.entity.ErrorObject;
+import com.ExpenseTracker.entity.ErrorObject;
 
 @ControllerAdvice
 public class GlobalException {

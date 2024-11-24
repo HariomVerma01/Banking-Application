@@ -1,8 +1,8 @@
-package com.SBI.ExpenseTracker.Repository;
+package com.ExpenseTracker.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.SBI.ExpenseTracker.entity.User;
+import com.ExpenseTracker.entity.User;
 
 public interface UserRepo extends JpaRepository<User, Long>{
 

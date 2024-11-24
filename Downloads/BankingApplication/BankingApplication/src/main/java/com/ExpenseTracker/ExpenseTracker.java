@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker;
+package com.ExpenseTracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

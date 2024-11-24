@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.Controller;
+package com.ExpenseTracker.Controller;
 
 import java.math.BigDecimal;
 import java.sql.Date;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.SBI.ExpenseTracker.ExceptionHandler.ExpenseNotFoundException;
-import com.SBI.ExpenseTracker.ExpenseService.ExpenseService;
-import com.SBI.ExpenseTracker.entity.Expense;
+import com.ExpenseTracker.ExceptionHandler.ExpenseNotFoundException;
+import com.ExpenseTracker.ExpenseService.ExpenseService;
+import com.ExpenseTracker.entity.Expense;
 
 @RestController
 public class Controller {

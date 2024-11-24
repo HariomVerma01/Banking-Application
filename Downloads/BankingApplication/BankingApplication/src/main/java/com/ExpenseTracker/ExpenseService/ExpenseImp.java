@@ -1,4 +1,4 @@
-package com.SBI.ExpenseTracker.ExpenseService;
+package com.ExpenseTracker.ExpenseService;
 
 import java.sql.Date;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.SBI.ExpenseTracker.Repository.ExpenseRepo;
-import com.SBI.ExpenseTracker.entity.Expense;
+import com.ExpenseTracker.Repository.ExpenseRepo;
+import com.ExpenseTracker.entity.Expense;
 
 @Service
 public class ExpenseImp implements ExpenseService {
